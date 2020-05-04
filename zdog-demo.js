@@ -158,40 +158,18 @@ stem.copy({
   color: '#fff',
 });
 
-let rect = new Zdog.Rect({
+new Zdog.Box({
   addTo: illo,
   width: 120,
-
-height: 120,
-
+  height: 120,
+  depth: 120,
   stroke: 2,
-    sides: 4,
-
+  fill: false,
   color: '#fff',
-  
-    translate: { z: 60, x:-5 },
+    translate: { x: -5 },
+
 
 });
-
-rect.copy({
-
-    translate: { z: -60, x:-5 },
-
-})
-
-rect.copy({
-    translate: {  x:-65 },
-
-    rotate: { y: -1.57 },
-
-})
-
-rect.copy({
-    translate: {  x:56 },
-
-    rotate: { y: -1.57 },
-
-})
 
 
 new Zdog.Shape({
