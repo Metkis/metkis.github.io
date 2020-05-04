@@ -319,9 +319,9 @@ new Zdog.Shape({
 
 function animate() {
 
-  illo.rotate.z = 4.75;
+  illo.rotate.z = 4.70;
   illo.rotate.y += 0.03;
-  illo.rotate.x = -0.30;
+  illo.rotate.x = -0.45;
 
   requestAnimationFrame( animate );
     illo.updateRenderGraph();
