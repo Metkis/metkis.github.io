@@ -86,6 +86,152 @@ rect.copy({
 
 })
 
+
+new Zdog.Shape({
+  addTo: illo,
+  // no path set, default to single point
+  stroke: 5,
+  color: '#fff',
+  
+      translate: {  x:30, z:30 },
+
+});
+
+new Zdog.Shape({
+  addTo: illo,
+  // no path set, default to single point
+  stroke: 5,
+  color: '#fff',
+  
+      translate: {  x:-30, z:-30 },
+
+});
+
+
+new Zdog.Shape({
+  addTo: illo,
+  // no path set, default to single point
+  stroke: 5,
+  color: '#fff',
+  
+        translate: {  x:-30, z:-30 },
+
+});
+
+new Zdog.Shape({
+  addTo: illo,
+  // no path set, default to single point
+  stroke: 3,
+  color: '#fff',
+  
+        translate: {  x:-20, z:-50 },
+
+});
+
+
+new Zdog.Shape({
+  addTo: illo,
+  // no path set, default to single point
+  stroke: 7,
+  color: '#fff',
+  
+        translate: {  x:35, z:20 , y: -10},
+
+});
+
+
+new Zdog.Shape({
+  addTo: illo,
+  // no path set, default to single point
+  stroke: 5,
+  color: '#fff',
+  
+      translate: {  x:-30, z:30 , y: 45},
+
+});
+
+new Zdog.Shape({
+  addTo: illo,
+  // no path set, default to single point
+  stroke: 5,
+  color: '#fff',
+  
+      translate: {  x:20, z:-40 ,y:40},
+
+});
+
+
+new Zdog.Shape({
+  addTo: illo,
+  // no path set, default to single point
+  stroke: 5,
+  color: '#fff',
+  
+        translate: {  x:-10, z:-30, y:-30 },
+
+});
+
+new Zdog.Shape({
+  addTo: illo,
+  // no path set, default to single point
+  stroke: 3,
+  color: '#fff',
+  
+        translate: {  x:-20, z:20, y:30 },
+
+});
+
+new Zdog.Shape({
+  addTo: illo,
+  // no path set, default to single point
+  stroke: 3,
+  color: '#fff',
+  
+        translate: {  x:-40, z:40, y:40 },
+
+});
+
+
+new Zdog.Shape({
+  addTo: illo,
+  // no path set, default to single point
+  stroke: 3,
+  color: '#fff',
+  
+        translate: {  x:40, z:30, y:40 },
+
+});
+
+new Zdog.Shape({
+  addTo: illo,
+  // no path set, default to single point
+  stroke: 3,
+  color: '#fff',
+  
+        translate: {  x:40, z:-40, y:-40 },
+
+});
+
+new Zdog.Shape({
+  addTo: illo,
+  // no path set, default to single point
+  stroke: 4,
+  color: '#fff',
+  
+        translate: {  x:-40, z:40, y:-40 },
+
+});
+
+new Zdog.Shape({
+  addTo: illo,
+  // no path set, default to single point
+  stroke: 3,
+  color: '#fff',
+  
+        translate: {  x:-50, z:0, y:-10 },
+
+});
+
 function animate() {
 
   illo.rotate.z = 4.70;
