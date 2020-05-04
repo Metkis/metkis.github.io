@@ -39,6 +39,113 @@ scale: 0.5,
 
 });
 
+
+new Zdog.Cone({
+  addTo: illo,
+  diameter: 15,
+  length: 15,
+  color: '#c8ffb0',
+  backface: '#8ecc72',
+  
+	translate: { z: -60, x:90, y:-60 },
+
+  	rotate:{y:-1.55}
+
+});
+
+
+
+new Zdog.Cone({
+  addTo: illo,
+  diameter: 15,
+  length: 15,
+  color: '#ff9e9e',
+  backface: '#db7474',
+  
+	translate: { z: -97.5, x:55, y:-60 },
+	rotate:{x:3}
+
+  
+});
+
+new Zdog.Cone({
+  addTo: illo,
+  diameter: 15,
+  length: 15,
+  color: '#9ee2ff',
+  backface: '#6cb8d9',
+  
+
+	translate: { z: -60, x:55, y:-97.5 },
+	rotate:{x:1.55}
+
+  
+});
+
+
+
+new Zdog.Box({
+  addTo: illo,
+  width: 15,
+  height: 15,
+  depth: 15,
+  stroke: 1,
+  fill: false,
+  color: '#fff8c7',
+  // remove left & right faces
+  leftFace: '#c8ffb0',
+  rightFace: false,
+  rearFace: false,
+  topFace: false,
+  bottomFace: '#9ee2ff',
+  frontFace: '#ff9e9e',
+  	translate: { z: -67.5, x:62.5, y:-67.5 },
+
+});
+
+let ystem = new Zdog.Shape({
+  addTo: illo,
+scale: 0.5,
+
+  path: [
+    { x: 110,y: -120, z: -120 }, // start at 1st point
+    { x:  180, y: -120, z: -120}, // line to 2nd point
+  ],
+  stroke: 3,
+  color: '#c8ffb0',
+
+});
+
+
+let xstem = new Zdog.Shape({
+  addTo: illo,
+scale: 0.5,
+
+  path: [
+    { x: 110,y: -120, z: -120 }, // start at 1st point
+    { x:  110, y: -190, z: -120}, // line to 2nd point
+  ],
+  stroke: 3,
+  color: '#9ee2ff',
+
+});
+
+
+let zstem = new Zdog.Shape({
+  addTo: illo,
+scale: 0.5,
+
+  path: [
+    { x: 110,y: -120, z: -120 }, // start at 1st point
+    { x:  110, y: -120, z: -190}, // line to 2nd point
+  ],
+  stroke: 3,
+  color: '#ff9e9e',
+
+});
+
+
+
 stem.copy({
   // overwrite original options
   translate: { y: 80 },
@@ -234,9 +341,9 @@ new Zdog.Shape({
 
 function animate() {
 
-  illo.rotate.z = 4.70;
-  illo.rotate.y +=0.03;
-  illo.rotate.x = 0.30;
+  illo.rotate.z = 4.75;
+  illo.rotate.y += 0.03;
+  illo.rotate.x = -0.30;
 
   requestAnimationFrame( animate );
     illo.updateRenderGraph();
