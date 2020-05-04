@@ -57,7 +57,7 @@ let rect = new Zdog.Rect({
 
 height: 120,
 
-  stroke: 4,
+  stroke: 2,
     sides: 4,
 
   color: '#fff',
