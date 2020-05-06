@@ -17,7 +17,7 @@ padding: 0;
 li {
 color: #777;
 font-family: 'Saira Extra Condensed', sans-serif;
-transition: color 0.3s;
+transition: color 0.2s;
 }
 
 li:hover {
@@ -27,7 +27,7 @@ color: #fff;
 li a {
 color: #777;
 text-decoration: none;
-transition: color 0.3s;
+transition: color 0.2s;
 
 }
 
