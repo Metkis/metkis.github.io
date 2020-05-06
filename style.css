@@ -27,6 +27,8 @@ color: #fff;
 li a {
 color: #777;
 text-decoration: none;
+transition: color 0.3s;
+
 }
 
 li a:hover {
