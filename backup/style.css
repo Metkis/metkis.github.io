@@ -1,0 +1,36 @@
+.zdog-canvas {
+background: #000000;
+text-align: center;
+}
+
+body {
+background: #000000;
+text-align: center;
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+li {
+color: #4d4d4d;
+font-family: 'Saira Extra Condensed', sans-serif;
+transition: color 0.2s;
+}
+
+li:hover {
+color: #fff;
+}
+
+li a {
+color: #4d4d4d;
+text-decoration: none;
+transition: color 0.2s;
+
+}
+
+li a:hover {
+color: #fff;
+}
